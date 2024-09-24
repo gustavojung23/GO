@@ -10,6 +10,9 @@ Nesta pasta estão exemplos de código que utilizam pacotes nativos do Go, explo
 ### 2. Pacotes Externos
 Aqui estão exemplos de como integrar pacotes externos no Go, utilizando bibliotecas populares para estender as funcionalidades da linguagem.
 
+### 3. Variáveis
+Esta pasta contém exemplos sobre o uso de variáveis no Go.
+
 ---
 
 Este projeto está em desenvolvimento e é voltado para o aprendizado contínuo em Go.
