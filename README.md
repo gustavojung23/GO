@@ -54,7 +54,7 @@ Go oferece suporte a strings, que são sequências imutáveis de caracteres, e a
 - `char` em Go é representado pelo tipo `rune`, que é um alias para `int32` e é usado para representar caracteres Unicode.
 - Um `rune` pode armazenar qualquer caractere Unicode e é delimitado por aspas simples (`'`).
 
-### 4.3 Booleanos
+#### 4.3 Booleanos
 
 O tipo `bool` em Go representa um valor booleano, que pode ser **verdadeiro** (`true`) ou **falso** (`false`). Ele é utilizado para controlar a lógica do programa, sendo comumente aplicado em expressões condicionais e estruturas de controle como `if` e `for`.
 
