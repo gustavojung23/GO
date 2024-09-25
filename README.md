@@ -54,11 +54,22 @@ Go oferece suporte a strings, que são sequências imutáveis de caracteres, e a
 - `char` em Go é representado pelo tipo `rune`, que é um alias para `int32` e é usado para representar caracteres Unicode.
 - Um `rune` pode armazenar qualquer caractere Unicode e é delimitado por aspas simples (`'`).
 
-#### 4.3 Valores Zero
+### 4.3 Booleanos
+
+O tipo `bool` em Go representa um valor booleano, que pode ser **verdadeiro** (`true`) ou **falso** (`false`). Ele é utilizado para controlar a lógica do programa, sendo comumente aplicado em expressões condicionais e estruturas de controle como `if` e `for`.
+
+#### 4.4 Erros
+
+Em Go, o tipo `error` é uma interface embutida que representa a condição de erro. É usada para retornar informações sobre falhas em operações ou funções. A interface `error` tem um método, `Error()`, que retorna uma mensagem descritiva sobre o erro.
+
+##### 4.4.1 Criando Erros
+Você pode criar erros personalizados usando a função `errors.New` da biblioteca padrão.
+
+#### 4.5 Valores Zero
 
 Em Go, todas as variáveis são inicializadas com um **valor zero** padrão se não forem explicitamente inicializadas. O valor zero depende do tipo da variável e garante que elas nunca contenham "lixo" de memória, como em outras linguagens.
 
-##### 4.3.1 Valores Zero por Tipo:
+##### 4.5.1 Valores Zero por Tipo:
 - **Tipos numéricos** (`int`, `float`, etc.): O valor zero é `0`.
 - **Strings**: O valor zero é uma string vazia `""`.
 - **Booleanos**: O valor zero é `false`.
