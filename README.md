@@ -127,6 +127,15 @@ Os operadores unários modificam o valor de uma variável em uma unidade.
 - `/=`: Divisão
 - `%=`: Operação de módulo
 
+## 7. Structs
+Structs são tipos de dados compostos que permitem agrupar variáveis de diferentes tipos sob um único nome.
+
+### 7.1 Definindo uma Struct
+No Go, as structs são definidas com a palavra-chave type, seguida pelo nome da struct e sua composição.
+
+### 7.2 Usando uma Struct
+Após definir uma struct, você pode criar instâncias dela, atribuir valores aos seus campos e utilizá-los no seu programa.
+
 ---
 
 Este projeto está em desenvolvimento e é voltado para o aprendizado contínuo em Go.
