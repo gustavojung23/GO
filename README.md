@@ -136,6 +136,14 @@ No Go, as structs são definidas com a palavra-chave type, seguida pelo nome da 
 ### 7.2 Usando uma Struct
 Após definir uma struct, você pode criar instâncias dela, atribuir valores aos seus campos e utilizá-los no seu programa.
 
+## 8. Herança
+Go não suporta herança no sentido tradicional da OOP, onde uma classe pode estender diretamente outra classe para herdar seus atributos e métodos. Em vez disso, Go utiliza composição e embutimento (embedding) para alcançar comportamentos similares à herança. Além disso, Go utiliza interfaces para definir e implementar comportamentos comuns.
+
+## 9. Ponteiros
+Ponteiros são uma característica fundamental em Go que permitem armazenar a endereço de memória de uma variável. Em vez de armazenar o valor direto, um ponteiro aponta para a localização onde o valor está armazenado na memória. Isso é especialmente útil para:
+- `Eficiência de memória`: Evita a cópia de grandes estruturas de dados.
+- `Modificação de dados`: Permite que funções modifiquem o valor original de uma variável.
+- `Estruturas de dados complexas`: Essenciais para a criação de estruturas como listas ligadas, árvores, etc.
 ---
 
 Este projeto está em desenvolvimento e é voltado para o aprendizado contínuo em Go.
