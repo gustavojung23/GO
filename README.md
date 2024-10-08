@@ -141,9 +141,9 @@ Go não suporta herança no sentido tradicional da OOP, onde uma classe pode est
 
 ## 9. Ponteiros
 Ponteiros são uma característica fundamental em Go que permitem armazenar a endereço de memória de uma variável. Em vez de armazenar o valor direto, um ponteiro aponta para a localização onde o valor está armazenado na memória. Isso é especialmente útil para:
-- `Eficiência de memória`: Evita a cópia de grandes estruturas de dados.
-- `Modificação de dados`: Permite que funções modifiquem o valor original de uma variável.
-- `Estruturas de dados complexas`: Essenciais para a criação de estruturas como listas ligadas, árvores, etc.
+- **Eficiência de memória**: Evita a cópia de grandes estruturas de dados.
+- **Modificação de dados**: Permite que funções modifiquem o valor original de uma variável.
+- **Estruturas de dados complexas**: Essenciais para a criação de estruturas como listas ligadas, árvores, etc.
 ---
 
 Este projeto está em desenvolvimento e é voltado para o aprendizado contínuo em Go.
