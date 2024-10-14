@@ -21,13 +21,13 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World")
+    fmt.Println("Hello World")
 
-	erro := checkmail.ValidateFormat("teste@teste.com")
-	fmt.Println(erro)
+    erro := checkmail.ValidateFormat("teste@teste.com")
+    fmt.Println(erro)
 
-	erro2 := checkmail.ValidateFormat("123")
-	fmt.Print(erro2)
+    erro2 := checkmail.ValidateFormat("123")
+    fmt.Print(erro2)
 }
 ```
 
@@ -42,9 +42,9 @@ package main
 2. **Importação de Pacotes**
 ```go
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/badoux/checkmail"
+    "github.com/badoux/checkmail"
 )
 ```
 - `fmt`: Pacote padrão do Go para formatação de entrada e saída.
@@ -53,13 +53,13 @@ import (
 3. **Função Principal**
 ```go
 func main() {
-	fmt.Println("Hello World")
+    fmt.Println("Hello World")
 
-	erro := checkmail.ValidateFormat("teste@teste.com")
-	fmt.Println(erro)
+    erro := checkmail.ValidateFormat("teste@teste.com")
+    fmt.Println(erro)
 
-	erro2 := checkmail.ValidateFormat("123")
-	fmt.Print(erro2)
+    erro2 := checkmail.ValidateFormat("123")
+    fmt.Print(erro2)
 }
 ```
 - `fmt.Println("Hello World")`: Imprime "Hello World" no console.
