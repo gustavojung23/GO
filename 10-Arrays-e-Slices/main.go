@@ -25,4 +25,8 @@ func main() {
 
 	slice2 := slice1[0:3]
 	fmt.Println(slice2)
+
+	slice3 := make([]int, 3)
+	fmt.Println("Tamanho do Slice: ", len(slice3))
+	fmt.Println("Capacidade do Slice: ", cap(slice3))
 }
