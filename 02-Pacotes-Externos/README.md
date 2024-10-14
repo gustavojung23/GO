@@ -16,9 +16,8 @@ A seguir, um exemplo simples que demonstra como importar e utilizar um pacote ex
 package main
 
 import (
-	"fmt"
-
-	"github.com/badoux/checkmail"
+    "fmt"
+    "github.com/badoux/checkmail"
 )
 
 func main() {
