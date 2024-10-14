@@ -55,7 +55,7 @@ Vamos criar o pacote `auxiliar` utilizado no exemplo acima.
 
 1. **Estrutura de Diretórios**:
 ```go
-1-Pacotes/
+01-Pacotes/
 ├── main.go
 └── auxiliar/
 	└── auxiliar.go
