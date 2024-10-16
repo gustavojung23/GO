@@ -157,6 +157,7 @@ Go incentiva a composição sobre a herança para promover maior flexibilidade e
 ## 🛡 Boas Práticas
 
 - **Nomenclatura Clara**
+
 Utilize nomes de structs que representem claramente a entidade ou conceito que estão modelando.
 ```go
 type Produto struct {
@@ -166,6 +167,7 @@ type Produto struct {
 ```
 
 - **Exportação de Campos Necessários**
+
 Exporte apenas os campos que precisam ser acessados de outros pacotes, mantendo a encapsulação.
 ```go
 type Usuario struct {
@@ -175,6 +177,7 @@ type Usuario struct {
 ```
 
 - **Documentação dos Campos**
+
 Comente os campos das structs para melhorar a legibilidade e facilitar a manutenção.
 ```go
 type Endereco struct {
@@ -184,4 +187,5 @@ type Endereco struct {
 ```
 
 - **Evite Structs Excessivamente Grandes**
+
 Mantenha as structs focadas em uma única responsabilidade para facilitar a reutilização e a testabilidade.
