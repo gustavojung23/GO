@@ -119,9 +119,11 @@ func main() {
 
 ## 🛡 Boas Práticas
 - **Use Ponteiros com Cautela**
+
 Ponteiros podem aumentar a flexibilidade do seu código, mas também podem introduzir complexidade e riscos de segurança. Use-os apenas quando necessário.
 
 - **Evite Ponteiros Nulos**
+
 Sempre inicialize ponteiros antes de usá-los para evitar erros de execução.
 ```go
 var p *int
@@ -129,12 +131,15 @@ var p *int
 ```
 
 - **Documente o Uso de Ponteiros**
+
 Explique por que um ponteiro está sendo usado em uma função ou método para facilitar a compreensão do código por outros desenvolvedores.
 
 - **Prefira Passagem por Valor Quando Apropriado**
+
 Nem sempre é necessário usar ponteiros. Para tipos pequenos e imutáveis, passar por valor pode ser mais simples e eficiente.
 
 - **Combine Ponteiros com Structs**
+
 Utilize ponteiros para structs para evitar cópias desnecessárias e permitir a modificação dos dados originais.
 ```go
 type Carro struct {
