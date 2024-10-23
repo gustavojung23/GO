@@ -43,7 +43,7 @@ O projeto está organizado em 15 subpastas, cada uma focada em um aspecto espec�
 
 Cada subpasta contém um `README.md` detalhado sobre o tópico específico, com exemplos de código e explicações conceituais. Para aproveitar ao máximo este projeto, siga os passos abaixo:
 
-1. **Clonar o REpositório**
+1. **Clonar o Repositório**
 ```bash
   git clone https://github.com/gustavojung23/GO.git
   cd my-project
