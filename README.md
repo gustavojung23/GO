@@ -14,10 +14,14 @@ Bem-vindo ao **Projeto de Estudo da Linguagem GO**! Este repositório foi criado
 9. [Arrays e Slices](./09-Arrays-e-Slices/)
 10. [Maps](./10-Maps/)
 11. [Estruturas de Controle](./11-Estruturas-de-Controle/)
+12. [Defer](./12-Defer/)
+13. [Panic e Recover](./13-Panic-e-Recover/)
+13. [Metódos](./14-Metódos/)
+13. [Interfaces](./15-Interfaces/)
 
 ## 🗂 Estrutura do Projeto
 
-O projeto está organizado em 11 subpastas, cada uma focada em um aspecto específico da linguagem Go. A seguir, uma breve descrição de cada tópico:
+O projeto está organizado em 15 subpastas, cada uma focada em um aspecto específico da linguagem Go. A seguir, uma breve descrição de cada tópico:
 
 1. **Pacotes**: Introdução aos pacotes em Go, como criar e organizar pacotes próprios.
 2. **Pacotes Externos**: Utilização e gerenciamento de pacotes de terceiros.
@@ -30,6 +34,10 @@ O projeto está organizado em 11 subpastas, cada uma focada em um aspecto espec�
 9. **Arrays e Slices**: Manipulação de coleções de dados utilizando arrays e slices.
 10. **Maps**: Utilização de maps para armazenamento e acesso a dados chave-valor.
 11. **Estruturas de Controle**: Implementação de estruturas de controle como loops e condicionais.
+12. **Defer**: Uso da palavra-chave ``defer`` para agendar a execução de funções ao final de outra função, garantindo a liberação de recursos e a execução de limpezas necessárias.
+13. **Panic e Recover**: Uso das palavras-chave `panic` e `recover` para tratamento de erros e recuperação de panics, garantindo a estabilidade e controle do fluxo de execução do programa.
+14. **Métodos**: Definição de métodos em structs e como eles podem ser usados para manipular dados ou realizar ações específicas associadas a um tipo.
+15. **Interfaces**: Criação e uso de interfaces para permitir que diferentes tipos compartilhem o mesmo comportamento, facilitando o polimorfismo e a flexibilidade no código.
 
 ## 🚀 Como Utilizar
 
